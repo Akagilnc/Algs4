@@ -14,11 +14,11 @@ public class TempDraw {
 
     public static void sortedRandomArray()
     {
-        int N = 100000000;
+        int N = 100000;
         double[] a = new double[N];
         for (int i = 0; i < N; i++)
         {
-            a[i] = StdRandom.random();
+            a[i] = StdRandom.uniform();
         }
         Arrays.sort(a);
         StdDraw.setPenColor(Color.blue);
